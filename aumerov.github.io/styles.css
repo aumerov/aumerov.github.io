@@ -104,6 +104,10 @@
     flex-direction: row;
     max-width: 100%;
     margin: 1em 0 2em 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 2px solid #b3b3b3;
+    border-radius: 5px;
   
     /* Debug border */
     /* border: 2px solid blue; */
@@ -136,8 +140,6 @@
     padding: 0 20px;
     margin: 0px;
     line-height: 1.5;
-    overflow: scroll;
-  
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -175,22 +177,28 @@
     justify-content: space-between;
     padding: 20px;
     background-color: #f8f8f8;
-    border: 1px solid #ccc;
+    border: 2px solid #b3b3b3;
     border-radius: 5px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   }
   
   .about-image img {
     max-width: 300px;
-    border-radius: 3px;
+    border-radius: 15px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   }
 
   .portfolio-image img {
-    max-width: 725px;
-    border-radius: 3px;
+    max-width: 750px;
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    margin-right: 3px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   }
+
+  .portfolio-image:hover img {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
   
   .about-text {
     flex: 1;
@@ -228,7 +236,7 @@
 
   .resume {
     border: 2px solid #b3b3b3;
-    background-color: #f9f9f9;
+    background-color: #f8f8f8;
     padding: 20px;
     border-radius: 10px;
     font-family: Arial;
@@ -238,7 +246,7 @@
 }
 
 .resume h2, .resume h3 {
-    color: #3f3f3f;
+    color: #343434;
     margin-top: 0;
     padding-bottom: 5px;
 }
@@ -264,6 +272,13 @@
   }
   
   /* CSS for contact form */
+
+  .contact-form {
+    border: 2px solid #b3b3b3;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+  }
   
   label {
     display: block;
@@ -275,7 +290,7 @@
   input[type="text"],
   input[type="email"],
   textarea {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
