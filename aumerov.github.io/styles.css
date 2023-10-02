@@ -185,6 +185,12 @@
     border-radius: 3px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   }
+
+  .portfolio-image img {
+    max-width: 725px;
+    border-radius: 3px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  }
   
   .about-text {
     flex: 1;
@@ -219,6 +225,39 @@
   .button:hover {
     background-color: var(--cg-blue);
   }
+
+  .resume {
+    border: 2px solid #b3b3b3;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.resume h2, .resume h3 {
+    color: #3f3f3f;
+    margin-top: 0;
+    padding-bottom: 5px;
+}
+
+
+
+  .resume-download a {
+    display: inline-block; 
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+.resume-download a:hover {
+    background-color: #555;
+    color: white;
+}
   
   .resume h2 {
     font-family: Georgia;
@@ -263,4 +302,17 @@
     bottom: 0;
     width: 100%;
     height: 2.5rem;
+  }
+
+  a:active {
+    color: red;
+  }
+  
+  a:hover {
+    color: green;
+    text-decoration: none;
+  }
+  
+  input:focus {
+    border: 1px solid #aaa;
   }
